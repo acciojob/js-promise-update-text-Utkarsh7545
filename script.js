@@ -7,5 +7,5 @@ function hello() {
 }
 
 hello().then((data) => {
-	data=document.getElementById("output").innerHTML;
+	document.getElementById("output").innerHTML=data;
 });
